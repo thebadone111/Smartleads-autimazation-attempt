@@ -26,12 +26,12 @@ logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
 # Variables
-account_sid = "AC1af9b8d48c4d02567e1f1a7e5fbff65a"
-auth_token = "c946393ce8dbd7e10f4b6a692e135c30"
-abs_num = "+13203613517"
+account_sid = ""
+auth_token = ""
+abs_num = "+"
 abs_whatsapp = "whatsapp:" + abs_num
 delay = 3
-handlers = ["whatsapp:+46761016185", "whatsapp:+46725643210"] # 0: Tiger, 1: Jonathan 
+handlers = ["whatsapp:+", "whatsapp:+"] # 0: Tiger, 1: Jonathan 
 
 client = Client(account_sid, auth_token)
 app = Flask(__name__)
