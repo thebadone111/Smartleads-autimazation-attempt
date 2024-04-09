@@ -1,0 +1,7 @@
+Filepath: /home/ubuntu/app/main/
+
+To send message throught the twilio system
+Send the following message
+"admin-send,client_num,body of the message,whatsapp: (or sms)
+
+Remember: Do not include a space after any of the commas
